@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  
+</head>
+  <body>
+<style>
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+</style>
+<div class="header bg-light p-2">
+    <div class="d-flex flex-wrap">
+    <i class="fa-solid fa-location-dot pt-1 ps-4 pe-2"></i><p>123 Street, New York, USA</p>
+    <i class="fa-regular fa-clock pt-1 ps-4 pe-2"></i><p>123 Street, New York, USA</p>
+    <div class="d-flex ms-auto me-4">
+        <i class="fa-solid fa-phone pt-1 ps-4 pe-2"></i><p>123 Street, New York, USA</p>
+        <i class="fa-brands fa-facebook p-1 ps-4 fa-2x"></i>
+        <i class="fa-brands fa-instagram p-1  fa-2x"></i>
+        <i class="fa-brands fa-whatsapp p-1  fa-2x"></i>
+        <i class="fa-brands fa-twitter p-1  fa-2x"></i>
+    </div>
+</div>
+</div>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid ms-5">
+      <a class="navbar-brand fs-1 text-danger" href="#">WooDY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SREVICE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PAGES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  bg-danger text-light d-inline p-2" href="#"> CONTACT</a>
+          </li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="overlay">
+<h1 class="fw-bold">WELCOME TO WOODY</h1>
+<h1 class="fw-bold display-1">Best carpenter & <br>Craftsman Service</h1>
+<h1>Vero eliter clita Lorem ipsum dolor at sad stet diam no.kasd rebum<br>
+    ipsum et Diam justo clita et kasd rebum sea eliter.
+    </h1>
+    <div class="d-flex flex-wrap justify-content-center">
+    <button class="bg-danger ps-3 pe-3 pt-1 pb-1 text-light m-2"> Read More</button>
+    <button class="bg-light ps-3 pe-3 pt-1 pb-1 text-dark m-2"> Read More</button>
+    </div>
+    </div>
+    </div>
+    <div class="carousel-item active">
+        <div class="overlay">
+            <h1 class="fw-bold">WELCOME TO WOODY</h1>
+            <h1 class="fw-bold display-1">Best carpenter & <br>Craftsman Service</h1>
+            <h1>Vero eliter clita Lorem ipsum dolor at sad stet diam no.kasd rebum<br>
+                ipsum et Diam justo clita et kasd rebum sea eliter.
+                </h1>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <button class="bg-danger ps-2 pe-3 pt-1 pb-1 text-light m-2"> Read More</button>
+                    <button class="bg-light ps-2 pe-3 pt-1 pb-1 text-dark m-2"> Read More</button>
+                    </div>
+        </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="overlay">
+                    <h1 class="fw-bold">WELCOME TO WOODY</h1>
+                    <h1 class="fw-bold display-1">Best carpenter & <br>Craftsman Service</h1>
+                    <h1>Vero eliter clita Lorem ipsum dolor at sad stet diam no.kasd rebum<br>
+                        ipsum et Diam justo clita et kasd rebum sea eliter.
+                        </h1>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <button class="bg-danger ps-3 pe-3 pt-1 pb-1 text-light m-1"> Read More</button>
+                            <button class="bg-light ps-3 pe-3 pt-1 pb-1 text-dark m-1"> Read More</button>
+                            </div>
+                </div>
+                    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="container">
+    <div class="row d-flex">
+        <div class="col-lg-2 d-flex m-5 ms-0">
+            <i class="fa-solid fa-user fa-5x p-5"></i>
+            <img class="p-3" src="images.png">
+            </div>
+            <div class="col-lg-2 d-flex m-5 ms-0">
+                <i class="fa-solid fa-check fa-5x p-5"></i>
+                <img class="p-3" src="images.png">
+            </div>
+            <div class="col-lg-2 d-flex m-5 ms-0">
+                <i class="fa-solid fa-user fa-5x p-5"></i>
+                <img class="p-3" src="images.png">
+            </div>
+            <div class="col-lg-2 d-flex m-5 ms-0">
+                <i class="fa-solid fa-headphones fa-5x p-5"></i>
+                <img class="p-3" src="images.png">
+            </div>
+            </div>
+            </div>
+            <div class="container-fluid m-0 p-0 d-flex justify-content-center">
+                                <div class="row d-flex justify-content-center">
+                                  <div class="col-lg-5">
+                                    <img class="img-fluid" src="about.jpg">
+                                  </div>
+                                  <div class="col-lg-5">
+                                    <h1>About Us _______</h1>
+                                  <p> Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu<br> diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet<br> lorem sit clita duo justo erat amet</p>
+                              <div class="d-flex">
+                                <i class="fa-solid fa-user fa-3x ps-3 p-1 pe-2"></i>
+                                <h3>124<br>Happy Clients</h3>
+                                  
+                                  <div class="d-flex">
+                                    <i class="fa-solid fa-check ps-3 p-1 fa-3x pe-2"></i>
+                                    <h3>124<br>Happy Clients</h3>
+                                      </div>
+                                      </div>
+                                      <button class="ps-5 pe-5 pt-2 pb-2 mt-5 m-2 bg-danger text-light">Explore More</button>
+                                  </div>
+                                  </div>
+                                  </div>
+                                  <h1 class="text-center text-danger m-4">Our Services</h1>
+                                  <div class="container-fluid d-flex justify-content-center">
+                                    <div class="row d-flex flex-wrap justify-content-center">
+                                      <div class="col-lg-3 col-10 mb-2 bg-primary shadow p-3 mb-5 bg-body rounded m-1">
+                                      <img class="img-fluid" src="service-1.jpg">
+                                      <div class="text-left">
+                                        <h3 class="text-center">General Carpentry</h3>
+                                        <p class="text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                        <h3 class="text-center text-danger">red More-></h3>
+                                      </div></div>
+                                      <div class="col-lg-3 col-10 mb-2 shadow p-3 mb-5 bg-body rounded m-1">
+                                        <img class="img-fluid" src="service-2.jpg">
+                                        <div class="text-left">
+                                          <h3 class="text-center">General Carpentry</h3>
+                                          <p class="text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                          <h3 class="text-center text-danger">red More-></h3>
+                                          </div>
+                                      </div>
+                                          <div class="col-lg-3 col-10 mb-2 shadow p-3 mb-5 bg-body rounded m-1">
+                                            <img class="img-fluid" src="service-3.jpg">
+                                            <div class="text-left">
+                                              <h3 class="text-center">General Carpentry</h3>
+                                        <p class="text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                        <h3 class="text-center text-danger">red More-></h3>
+                                              </div>
+                                          </div>
+                                              </div>
+                                              </div>
+                                              </div>
+                                              <div class="container-fluid d-flex justify-content-center">
+                                                <div class="row d-flex flex-wrap justify-content-center">
+                                                  <div class="col-lg-3 col-10 mb-2 bg-primary shadow p-3 mb-5 bg-body rounded m-1">
+                                                  <img class="img-fluid" src="service-4.jpg">
+                                                  <div class="text-left">
+                                                    <h3 class="text-center">General Carpentry</h3>
+                                                    <p class="text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                                    <h3 class="text-center text-danger">red More-></h3>
+                                                  </div></div>
+                                                  <div class="col-lg-3 col-10 mb-2 shadow p-3 mb-5 bg-body rounded m-1">
+                                                    <img class="img-fluid" src="service-5.jpg">
+                                                    <div class="text-left">
+                                                      <h3 class="text-center">General Carpentry</h3>
+                                                      <p class="text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                                      <h3 class="text-center text-danger">red More-></h3>
+                                                      </div>
+                                                  </div>
+                                                      <div class="col-lg-3 col-10 mb-2 shadow p-3 mb-5 bg-body rounded m-1">
+                                                        <img class="img-fluid" src="service-6.jpg">
+                                                        <div class="text-left">
+                                                          <h3 class="text-center">General Carpentry</h3>
+                                                    <p class="text-center">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                                                    <h3 class="text-center text-danger">red More-></h3>
+                                                          </div>
+                                                      </div>
+                                                          </div>
+                                                          </div>
+                                                          </div>
+                                
+                                 <div class="container-fluid">
+                                  <div class="row row-cols-lg-2 row-cols-1">
+                                    <div class="col bg-light h-75 p-5">
+                                    <h1 class="pt-3">Why Choose Us</h1>
+                                    <p class="pt-3">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu <br>diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet<br> lorem sit clita duo justo erat amet</p>
+                                    <div class="d-flex flex-wrap mt-5 mb-3">
+                                    <i class="fa fa-check fa-2x text-primary bg-white p-3 m-2"></i>
+                                    <p class="p-2 pe-5">Quality<br>
+                                     <span class="fw-bold">Services</span></p>
+                                    <i class="fa fa-user-check fa-2x text-primary bg-white p-3 m-2"></i>
+                                    </div>
+                                    <div class="d-flex flex-wrap mt-5 mb-5">
+                                    <i class="fa fa-drafting-compass fa-2x text-primary bg-white p-3 m-2"></i>
+                                    <p class="p-2 pe-5">Quality<br>
+                                      <span class="fw-bold">Services</span></p>
+                                    <i class="fa fa-headphones fa-2x text-primary bg-white p-3 m-2"></i>
+</div></div>
+<div class="col">
+  <img class="w-100 h-75" src="feature.jpg">
+  </div>
+  </div>
+  </div>
+
+  <div class="container">
+ <h1 class="text-center fw-bold mt-0">Our Projects</h1>   
+ <div class="row row-cols-lg-3 row-cols-1">
+  <div class="col">
+    <img class="img-fluid" src="portfolio-1.jpg">
+    </div>
+    <div class="col">
+      <img class="img-fluid" src="portfolio-2.jpg">
+      </div>
+      <div class="col">
+        <img class="img-fluid" src="portfolio-3.jpg">
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="portfolio-4.jpg">
+          </div>
+          <div class="col">
+            <img class="img-fluid" src="portfolio-5.jpg">
+            </div>
+            <div class="col">
+              <img class="img-fluid" src="portfolio-6.jpg">
+              </div>
+              </div>
+              </div>
+              
+
+              <div class="container-fluid mt-5">
+                <div class="row row-cols-lg-2 row-cols-1">
+<div class="col">
+<img class="w-100 h-75" src="feature.jpg">
+</div>
+<div class="col bg-light h-75 p-5 pt-2">
+  <h3 class="text-center">Custom Carpentry</h3>
+   <h5 class="text-center"> Wooden Furniture Manufacturing And Remodeling</h5>
+   <h1>Free Quote</h1>
+   <p> Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu <br>diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet<br> lorem sit clita duo justo erat amet</p>
+<div class="d-flex flex-wrap">
+  <input class="w-47 m-3" type="text" placeholder="Your Name">
+  <input class="w-47 m-3" type="tel" placeholder="Your Mobile">
+  <input class="w-47 m-3" type="email" placeholder="Your Email">
+  <input class="w-47 m-3" type="Service" placeholder="Your Name">
+  </div>
+<textarea class="w-75 m-2">
+  Special Note
+  </textarea>
+  <button class="w-75 bg-danger text-center text-light p-3 fs-4 m-2 mb-0">Sumbit</button>
+  </div>
+</div>
+</div>
+<h1 class="fw-bold text-center">Team Members</h1>
+<div class="container mt-5">
+  <div class="row row-cols-lg-4 row-cols-1">
+<div class="col">
+<img class="w-100 h-75" src="team-1.jpg">
+<h2 class="text-center fw-bold">Full Name</h2>
+<p class="text-center">Designation</p>
+</div>
+<div class="col">
+  <img class="w-100 h-75" src="team-2.jpg">
+  <h2 class="text-center fw-bold">Full Name</h2>
+<p class="text-center">Designation</p>
+  </div>
+  <div class="col">
+    <img class="w-100 h-75" src="team-3.jpg">
+    <h2 class="text-center fw-bold">Full Name</h2>
+<p class="text-center">Designation</p>
+    </div>
+    <div class="col">
+      <img class="w-100 h-75" src="team-4.jpg">
+      <h2 class="text-center fw-bold">Full Name</h2>
+      <p class="text-center">Designation</p>
+    </div>
+          </div>
+          </div>
+          <h1 class="text-center fw-bold">Testimonial</h1>
+          <img class="testimonial-img d-block me-auto ms-auto" src="testimonial-2.jpg">
+          <div class="d-block me-auto ms-auto text-center w-50 mt-5 border border-dark border-2 p-3">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non debitis velit aut unde. Autem commodi, vero laboriosam aliquid ab harum tempore! Quod perspiciatis similique deleniti voluptas sed vitae dignissimos dolor?</p>
+<h1>Client Name</h1>
+<p><i>profesition</i></p>
+</div>
+<div class="container-fluid mt-5 bg-dark text-light text-center">
+  <div class="row row-cols-lg-4 row-cols-1">
+<div class="col">
+<h1>Address</h1>
+<div class="d-flex flex-wrap justify-content-center">
+  <i class="fa-solid fa-location-dot p-2"></i>
+  <p>123 Street, New York, USA</p>
+  </div>
+  <div class="d-flex flex-wrap justify-content-center">
+  <i class="fa-solid fa-phone p-2"></i>
+  <p>+012 345 67890</p>
+  </div>
+  <div class="d-flex flex-wrap justify-content-center">
+  <i class="fa-solid fa-envelope p-2"></i>
+  <p>mail@domain.com</p>
+  </div>
+  <div class="d-flex justify-content-center">
+  <i class="fa-solid fa-phone p-2"></i>
+  <i class="fa-solid fa-envelope p-2"></i>
+  <i class="fa-solid fa-location-dot p-2"></i>
+  <i class="fa-solid fa-user p-2"></i>
+</div>
+</div>
+<div class="col">
+  <h1>Services</h1>
+  <p>General</p>
+  <p>Furniture </p>
+  <p>Wooden</p>
+  <p>Custom</p>
+  </div>
+  <div class="col">
+    <h1>Quick Links</h1>
+    <p>About us</p>
+    <p>Contact us</p>
+    <p>Our Service</p>
+    <p>Threm & Condition</p>
+    <p>Support</p>
+    </div>
+    <div class="col">
+      <h1>Newsletter</h1>
+      <p>Dolor amet sit justo amet elitr <br>clita ipsum elitr est.</p>
+      <input class="p-3" type="email" placeholder="Your email"></div>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
